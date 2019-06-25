@@ -1,6 +1,6 @@
 
 
-$("#button").on("click", function(){
+$("button").on("click", function(){
     search=$(this).val();
     if(search==='zions') {
         latCurrent = 37.2982;
